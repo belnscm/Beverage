@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "105118106872",
+    "firebase_url": "https://funcionandoverdadeiro.firebaseio.com",
+    "project_id": "funcionandoverdadeiro",
+    "storage_bucket": "funcionandoverdadeiro.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:105118106872:android:fa2fda337f9c54d4bea70d",
+        "android_client_info": {
+          "package_name": "br.fvc.beverage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "105118106872-ivqgqu5r3opd3o3lg23bp41dq66bus59.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmdasYyTK_3iBtoiK22T5RsJoZNKm3XZs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "105118106872-ivqgqu5r3opd3o3lg23bp41dq66bus59.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
