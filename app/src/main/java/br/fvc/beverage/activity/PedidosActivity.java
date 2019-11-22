@@ -91,12 +91,20 @@ public class PedidosActivity extends AppCompatActivity {
 
     private void recuperarPedidos() {
         //caixinha de carregamento
+<<<<<<< HEAD
         /*dialog = new SpotsDialog.Builder()
+=======
+        dialog = new SpotsDialog.Builder()
+>>>>>>> b335a5a4fbbaa38a4f93cd02e6c53f2f2af50843
                 .setContext(this)
                 .setMessage("Carregando dados")
                 .setCancelable(false)
                 .build();
+<<<<<<< HEAD
         dialog.show();*/
+=======
+        dialog.show();
+>>>>>>> b335a5a4fbbaa38a4f93cd02e6c53f2f2af50843
 
         DatabaseReference pedidoRef = firebaseRef
                 .child("pedidos")
@@ -116,6 +124,10 @@ public class PedidosActivity extends AppCompatActivity {
                         pedidos.add(pedido);
                     }
                     adapterPedido.notifyDataSetChanged();
+<<<<<<< HEAD
+=======
+                    dialog.dismiss();
+>>>>>>> b335a5a4fbbaa38a4f93cd02e6c53f2f2af50843
                 }
 
             }

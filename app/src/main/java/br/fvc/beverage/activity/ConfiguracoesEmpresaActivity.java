@@ -200,6 +200,7 @@ public class ConfiguracoesEmpresaActivity extends AppCompatActivity {
                             .child("empresas")
                             .child(idUsuarioLogado + "png");
 
+
                     UploadTask uploadTask = ref.putBytes(dadosImagem);
                     uploadTask.addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
                         @Override

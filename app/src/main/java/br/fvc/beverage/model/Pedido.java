@@ -82,7 +82,6 @@ public class Pedido {
                 .child( getIdEmpresa() )
                 .child( getIdPedido() );
         pedidoRef.updateChildren( status );
-//sadasdsad
 
     }
 
